@@ -22,7 +22,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 48px;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h3 {
 }
 
 h7 {
-  text-algin: center;
+  text-align: center;
   font-size: 18px;
   padding: 20px;
 }
@@ -89,6 +89,7 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  margin-top: -35px;
 }
 
 .about-app {
@@ -117,4 +118,10 @@ p {
 
 .button {
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  .img-homepage {
+    display: none;
+  }
 }
