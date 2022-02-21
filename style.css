@@ -63,28 +63,18 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
+.contact-link,
+.about-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.about-link:hover {
   color: var(--primary-color);
   background: #f5f2fe;
   border: 1px solid var(--primary-color);
-  transition: all 200ms ease-in-out;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.about-link:hover {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
   transition: all 200ms ease-in-out;
 }
 
