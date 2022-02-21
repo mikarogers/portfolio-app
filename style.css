@@ -16,7 +16,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   margin: 0;
 }
@@ -72,6 +73,7 @@ p {
   color: var(--primary-color);
   background: #f5f2fe;
   border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 
 .about-link {
@@ -83,6 +85,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all 200ms ease-in-out;
 }
 
 .homepage-link {
@@ -90,10 +93,6 @@ p {
   text-align: center;
   display: block;
   margin-top: -35px;
-}
-
-.about-app {
-  flex: 1;
 }
 
 .email-link {
@@ -115,13 +114,18 @@ p {
 .description {
   text-align: left;
 }
-
 .button {
   text-align: center;
 }
 
 @media (max-width: 576px) {
+  .button {
+    text-align: center;
+  }
   .img-homepage {
     display: none;
+  }
+  .description {
+    text-align: center;
   }
 }
